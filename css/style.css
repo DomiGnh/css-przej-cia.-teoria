@@ -49,6 +49,9 @@ p:nth-child(3) {
     float: none;
     margin-bottom: 300px;
     display: inline-block;
+    
+    transition:all 5s ease-in 0.5s;
+    
 }
 
 #kotek:hover {
