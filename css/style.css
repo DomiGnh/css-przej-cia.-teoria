@@ -1,0 +1,65 @@
+/*
+*{
+    background-color: dimgrey;
+}
+p {
+    display: inline;
+    font-size: 2em;
+    color: #fff;
+    width: 600px;
+    margin-top: 60px;
+}
+
+p:nth-child(odd){
+    background-color:coral;
+}
+
+p:nth-child(even){
+    background-color:cadetblue;
+}
+
+p:nth-child(1n+3){
+display: block;}
+*/
+
+
+a {
+    display: inline-block;
+    width: 100px;
+    height:100px;
+    background-color:darksalmon;
+    color:darkslategrey;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 5px;
+    line-height: 100px;
+}
+
+img {
+    float:right;
+}
+
+p:nth-child(3) {
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
