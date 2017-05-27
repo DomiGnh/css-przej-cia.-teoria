@@ -43,7 +43,18 @@ p:nth-child(3) {
     clear: both;
 }
 
+#kotek {
+    height: 100px;
+    width: 100px;
+    float: none;
+    margin-bottom: 300px;
+    display: inline-block;
+}
 
+#kotek:hover {
+    height: 200px;
+    width: 200px;
+}
 
 
 
