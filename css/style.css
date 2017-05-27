@@ -40,7 +40,7 @@ img {
 }
 
 p:nth-child(3) {
-    clear: both;
+/*    clear: both;*/
 }
 
 #kotek {
@@ -49,7 +49,6 @@ p:nth-child(3) {
     float: none;
     margin-bottom: 300px;
     display: inline-block;
-    
     transition:all 5s ease-in 0.5s;
     
 }
@@ -59,10 +58,38 @@ p:nth-child(3) {
     width: 200px;
 }
 
+#background
+{
+    height: 50vh;
+  background-color: aquamarine; 
+    background-image:url(kotek%20s%C5%82odki.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#overflow p{
+    width: 25%;
+    float: left;
+    height:100px;
+    
+}
+
+#overflow p:nth-child(odd)
+{ background-color: aquamarine;}
+
+#overflow p:nth-child(odd)
+{ background-color:darksalmon;}
+
+#overflow p:nth-child(2)
+{ overflow: scroll;}
+
+#overflow p:nth-child(3)
+{ overflow:hidden;}
 
 
-
-
+#overflow p:nth-child(4)
+{overflow: auto;}
 
 
 
